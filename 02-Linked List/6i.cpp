@@ -1,3 +1,7 @@
+/*    Write a program to implement a singly linked list and   perform the following operations:
+i. Insert a new node (at the beginning, at the end, */
+after a given node)
+
 #include <iostream>
 using namespace std;
 
