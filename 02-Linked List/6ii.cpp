@@ -1,3 +1,6 @@
+/*  Write a program to implement a singly linked list and perform the following operations:
+ ii. Delete a node (first node, last node, node after a given node)    */
+Display all the nodes
 #include <iostream>
 using namespace std;
 
