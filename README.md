@@ -1,124 +1,93 @@
-# 📘 DSA Manual Codes (C++)
+# 📘 DSA Manual Codes — C++
 
-Welcome to my **DSA Manual Codes** repository.
+Welcome to my **DSA Manual Codes** repository! 👋
 
-This repository contains my Data Structures and Algorithms (DSA) programs written in **C++** as part of my college manual and personal practice.
+This repository contains my **Data Structures and Algorithms (DSA) practical programs written in C++** as part of my college laboratory work and coding practice.
 
-I will continuously upload programs topic by topic while learning DSA.
-
----
+Each program is organized topic-wise to make it easy to understand, compile, execute, and revise concepts for practical examinations and viva.
 
 ## 🎯 Objectives
 
-- Practice DSA concepts in C++
-- Complete my college DSA manual
-- Improve problem-solving skills
-- Prepare for coding interviews
-- Maintain all DSA programs in one place
+- 📚 Complete college DSA practicals and manual programs.
+- 💻 Implement data structures and algorithms using C++.
+- 🧠 Improve logical thinking and problem-solving skills.
+- 🔍 Understand searching, sorting, and traversal techniques.
+- 🚀 Maintain a well-organized collection of practical codes on GitHub.
 
----
+## 📚 Practical Topics
 
-## 📚 Topics Covered
+| No. | Topic | Programs / Concepts |
+|---|---|---|
+| 01 | Arrays | Array operations and traversal |
+| 02 | Linked List | Insertion, deletion, and traversal |
+| 03 | Stack | Stack operations and expression evaluation |
+| 04 | Queue | Simple queue and circular queue |
+| 05 | Trees | Binary Search Tree and tree traversals |
+| 06 | Graphs | DFS and BFS traversal |
+| 07 | Sorting | Bubble Sort and Selection Sort |
+| 08 | Searching | Binary Search |
 
-- [ ] Introduction
-- [ ] Arrays
-- [ ] Strings
-- [ ] Searching
-- [ ] Sorting
-- [ ] Recursion
-- [ ] Linked List
-- [ ] Stack
-- [ ] Queue
-- [ ] Tree
-- [ ] Graph
-- [ ] Hashing
-- [ ] Heap
-- [ ] Dynamic Programming
+*The topics and program lists will be updated as more practicals are added.*
 
----
+## 🛠️ Technologies Used
 
-## 💻 Language
-
-- C++
-
----
-
-
+- **Language:** C++
+- **Compiler:** GCC / MinGW
+- **Editor:** Visual Studio Code
+- **Version Control:** Git and GitHub
 
 ## 📂 Repository Structure
 
 ```text
-DSA-MANUAL-CODES
+DSA-MANUAL-CODES/
 │
-├── README.md
+├── .vscode/
+├── 01-Arrays/
+├── 02-Linked List/
+├── 03-Stack/
+├── 04-Queue/
+├── 05-Tree/
+├── 06-Graph/
+├── 07-Sort/
+│
 ├── .gitignore
-│
-├── 01-Arrays
-│   ├── README.md
-│   ├── traversal.cpp
-│   ├── insertion.cpp
-│   ├── deletion.cpp
-│   ├── searching.cpp
-│   ├── update.cpp
-│   └── ...
-│
-├── 02-Strings
-│   ├── README.md
-│   └── ...
-│
-├── 03-Linked-List
-│   ├── README.md
-│   └── ...
-│
-├── 04-Stack
-│   ├── README.md
-│   └── ...
-│
-├── 05-Queue
-│   ├── README.md
-│   └── ...
-│
-├── 06-Recursion
-│   ├── README.md
-│   └── ...
-│
-├── 07-Trees
-│   ├── README.md
-│   └── ...
-│
-├── 08-Graphs
-│   ├── README.md
-│   └── ...
-│
-├── 09-Heap
-│   ├── README.md
-│   └── ...
-│
-├── 10-Hashing
-│   ├── README.md
-│   └── ...
-│
-├── 11-Dynamic-Programming
-│   ├── README.md
-│   └── ...
-│
-├── 12-Greedy
-│   ├── README.md
-│   └── ...
-│
-├── 13-Backtracking
-│   ├── README.md
-│   └── ...
-│
-├── 14-Bit-Manipulation
-│   ├── README.md
-│   └── ...
-│
-├── 15-Sorting
-│   ├── README.md
-│   └── ...
-│
-└── 16-Searching
-    ├── README.md
-    └── ...
+└── README.md
 ```
+
+Each topic folder contains its respective C++ practical programs.
+
+## ▶️ How to Compile and Run
+
+Make sure GCC is installed and available in your terminal.
+
+**1. Compile a program**
+
+```bash
+g++ filename.cpp -o program.exe
+```
+
+**2. Run the program in Windows PowerShell**
+
+```powershell
+.\program.exe
+```
+
+Replace `filename.cpp` with your actual C++ source filename.
+
+## 🌱 Learning Progress
+
+This repository is a record of my ongoing learning journey in Data Structures and Algorithms.
+
+New practical programs, improvements, and additional concepts will be added as I progress.
+
+## 👨‍💻 Author
+
+**Dev Shah**
+
+B.Tech — Information Technology
+
+GitHub: [@Dev24100](https://github.com/Dev24100)
+
+---
+
+⭐ If you find this repository useful for learning DSA, feel free to star it!
