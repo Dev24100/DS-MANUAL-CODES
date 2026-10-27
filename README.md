@@ -2,9 +2,9 @@
 
 Welcome to my **DSA Manual Codes** repository! 👋
 
-This repository contains my **Data Structures and Algorithms (DSA) practical programs written in C++** as part of my college laboratory work and coding practice.
+This repository contains my **Data Structures and Algorithms (DSA) practical programs written in C++**, developed as part of my college laboratory work and coding practice.
 
-Each program is organized topic-wise to make it easy to understand, compile, execute, and revise concepts for practical examinations and viva.
+Each program is organized topic-wise to make it easier to understand, compile, execute, and revise concepts for practical examinations and viva preparation.
 
 ## 🎯 Objectives
 
@@ -12,7 +12,8 @@ Each program is organized topic-wise to make it easy to understand, compile, exe
 - 💻 Implement data structures and algorithms using C++.
 - 🧠 Improve logical thinking and problem-solving skills.
 - 🔍 Understand searching, sorting, and traversal techniques.
-- 🚀 Maintain a well-organized collection of practical codes on GitHub.
+- 🚀 Maintain an organized collection of practical codes on GitHub.
+- 🛠️ Apply programming concepts through practical projects.
 
 ## 📚 Practical Topics
 
@@ -21,25 +22,41 @@ Each program is organized topic-wise to make it easy to understand, compile, exe
 | 01 | Arrays | Array operations and traversal |
 | 02 | Linked List | Insertion, deletion, and traversal |
 | 03 | Stack | Stack operations and expression evaluation |
-| 04 | Queue | Simple queue and circular queue |
+| 04 | Queue | Queue operations and circular queue |
 | 05 | Trees | Binary Search Tree and tree traversals |
 | 06 | Graphs | DFS and BFS traversal |
-| 07 | Sorting | Bubble Sort and Selection Sort |
-| 08 | Searching | Binary Search |
+| 07 | Sorting | Sorting algorithms |
+| 08 | Searching | Searching algorithms |
 
 *The topics and program lists will be updated as more practicals are added.*
 
+## 🚀 Projects
+
+This repository also includes a dedicated section for project work, containing source code and project documentation.
+
+### 1. DS Project
+
+**Folder:** `DS-PROJECT/`
+
+- **Project Code:** Contains the source code for the project.
+- **Project Report:** Contains the report/documentation explaining the project.
+- **Purpose:** Apply programming and data structure concepts to a practical implementation.
+
+Refer to the `DS-PROJECT` folder to access the available project files.
+
+*Note: Update this section with the exact project title, objectives, and features for a more detailed project overview.*
+
 ## 🛠️ Technologies Used
 
-- **Language:** C++
+- **Programming Language:** C and C++
 - **Compiler:** GCC / MinGW
-- **Editor:** Visual Studio Code
+- **Code Editor:** Visual Studio Code
 - **Version Control:** Git and GitHub
 
 ## 📂 Repository Structure
 
 ```text
-DSA-MANUAL-CODES/
+DSA LAB PROGRAMS/
 │
 ├── .vscode/
 ├── 01-Arrays/
@@ -50,35 +67,54 @@ DSA-MANUAL-CODES/
 ├── 06-Graph/
 ├── 07-Sort/
 │
+├── DS-PROJECT/
+│   ├── PROJECT-CODE.C
+│   └── Project Report
+│
 ├── .gitignore
 └── README.md
 ```
 
-Each topic folder contains its respective C++ practical programs.
+*The project report filename and any additional files may vary depending on the files included in `DS-PROJECT`.*
+
+Each practical folder contains its respective source code. The `DS-PROJECT` folder contains the project implementation and related documentation.
 
 ## ▶️ How to Compile and Run
 
-Make sure GCC is installed and available in your terminal.
+Make sure GCC or MinGW is installed and available in your terminal.
 
-**1. Compile a program**
+**1. Navigate to the folder containing your source code**
 
-```bash
+```powershell
+cd "01-Arrays"
+```
+
+**2. Compile a C++ program**
+
+```powershell
 g++ filename.cpp -o program.exe
 ```
 
-**2. Run the program in Windows PowerShell**
+**3. Run the program in Windows PowerShell**
 
 ```powershell
 .\program.exe
 ```
 
-Replace `filename.cpp` with your actual C++ source filename.
+For a C program, use `gcc` instead of `g++`:
+
+```powershell
+gcc filename.c -o program.exe
+.\program.exe
+```
+
+Replace the example filenames with the actual source filenames.
 
 ## 🌱 Learning Progress
 
-This repository is a record of my ongoing learning journey in Data Structures and Algorithms.
+This repository documents my ongoing learning journey in Data Structures and Algorithms.
 
-New practical programs, improvements, and additional concepts will be added as I progress.
+It includes college practical programs, algorithm implementations, and project work. I will continue adding new programs, improving existing code, and exploring additional concepts as I progress.
 
 ## 👨‍💻 Author
 
